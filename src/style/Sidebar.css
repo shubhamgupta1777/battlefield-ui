@@ -1,0 +1,44 @@
+.sidebar {
+  border-right: 1px solid rgb(255, 255, 255, 0.2);
+  width: 5%;
+  height: 100vh;
+  backdrop-filter: blur(30px);
+
+  .top {
+    /* background-color: blueviolet; */
+    height: 15%;
+  }
+  .mid {
+    height: 70%;
+    /* background-color: cyan; */
+  }
+  .bottom {
+    /* background-color: blueviolet; */
+    height: 15%;
+  }
+
+  .container {
+    /* background-color: black; */
+    .box {
+      /* background-color: cyan; */
+      /* border: 1px solid black; */
+      height: 50px;
+      background-size: 70%;
+      background-repeat: no-repeat;
+      background-position: center;
+      opacity: 0.6;
+      transition: opacity 0.3s ease;
+      &:hover {
+        opacity: 1;
+      }
+      &.active {
+        border-left: 3px solid #ee930e;
+        opacity: 1;
+      }
+      &.bottom-icon{
+        background-size: 30%;
+      }
+    }
+  }
+  
+}

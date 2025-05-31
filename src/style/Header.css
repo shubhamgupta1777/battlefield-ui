@@ -1,0 +1,24 @@
+.header {
+  height: 15%;
+  letter-spacing: 1px;
+  /* background-color: aquamarine; */
+  .breadcrumb-nav {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+  }
+  .breadcrumb {
+    /* background-color: blanchedalmond; */
+    font-size: x-small;
+
+    h3 {
+      
+      letter-spacing: 1px;
+      word-spacing: 5px;
+      margin-top: 0;
+    }
+  }
+  h2 {
+    margin-top: 0px;
+  }
+}
