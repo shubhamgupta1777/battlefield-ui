@@ -15,7 +15,7 @@ const Stats = () => {
   const [rules, setRules] = useState({});
 
   useEffect(() => {
-    fetch(`${process.env.REACT_APP_SERVER}/api/server-info`)
+    fetch(`${process.env.REACT_APP_SERVER}`)
       .then((response) => response.json())
       .then((json) => {
         setPlayers(json.players);
