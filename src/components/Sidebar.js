@@ -27,7 +27,7 @@ const Sidebar = () => {
     return <div className="top"></div>;
   };
 
-  const Mid = () => {
+  const PlayerList = () => {
     return (
       <div className="mid">
         <div className="container">
@@ -69,7 +69,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <Top/>
-      <Mid/>
+      <PlayerList/>
       <Bottom/>
     </div>
   );

@@ -2,7 +2,7 @@ import "../style/Main.css";
 
 import Header from "./Header";
 import Info from "./server_info";
-import Maps from "./Maps";
+import MapRotation from "./MapRotation";
 import Stats from "./Stats";
 
 const Main = () => {
@@ -12,7 +12,7 @@ const Main = () => {
       <div className="server">
         <Info />
         <Stats />
-        <Maps />
+        <MapRotation />
       </div>
     </div>
   );

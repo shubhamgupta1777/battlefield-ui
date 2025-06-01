@@ -1,6 +1,6 @@
 
 
-const Content = (props) => {
+const PanelCategory = (props) => {
   console.log(props);
   return (
     <div className="panel-content" style={{ cursor:"pointer", marginTop: props.data.index === 0 ? "30px" : "0" }}>
@@ -29,4 +29,4 @@ const Content = (props) => {
   );
 };
 
-export default Content;
+export default PanelCategory;

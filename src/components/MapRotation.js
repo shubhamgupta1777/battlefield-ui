@@ -1,7 +1,7 @@
 import { locations } from "../assets/locations";
-import "../style/Maps.css";
+import "../style/MapRotation.css";
 
-const Maps = () => {
+const MapRotation = () => {
   const baseMaps = Object.entries(locations).map(([key, value]) => ({
     key,
     title: `${key.replace(/_/g, " ")}`,
@@ -39,4 +39,4 @@ const Maps = () => {
   );
 };
 
-export default Maps;
+export default MapRotation;

@@ -1,7 +1,7 @@
 import "../style/Panel.css";
 import { icons } from "../assets/icons";
 import { profiles } from "../assets/profiles";
-import Content from "./Content";
+import PanelCategory from "./PanelCategory";
 
 const panel = () => {
   const data = [
@@ -35,7 +35,7 @@ const panel = () => {
     <div className="panel-container">
       <div className="right-panel">
         {data.map((item, index) => (
-          <Content key={index} data={item} />
+          <PanelCategory key={index} data={item} />
         ))}
       </div>
     </div>
